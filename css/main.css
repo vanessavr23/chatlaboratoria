@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.todocontenedor{
+	background: #EEEEEE; 
+	height: 850px;
+}
+
+ .verde{
+ 	background: #009688;
+ 	width: 100%;
+ 	height: 130px;
+ 	margin: 0;
+}
+
+.contenedor{
+	margin: auto;
+	position: relative;
+	top: 20px;
+ }
+
+.gian{
+	width: 100%;
+	border: 1px solid #CBCBCB;
+	background: #EEEEEE;
+	margin: 0;
+}
+
+.foto{
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.buscar{
+	width: 100%;
+	background: #fff;
+	border: solid 1px #CBCBCB;
+}
+
+.chico{
+	margin: 13px;
+	width: 85%;
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #CBCBCB;
+	border-radius: 5px;
+}
+
+.laboratoria{
+	width: 100%;
+	height: 70px;
+	background: #fff;
+	border: solid 1px #CBCBCB;
+	margin: 0;
+}
+
+li{
+	list-style: none;
+}
+
+.contactos{
+	overflow: scroll;
+	overflow-x: hidden;
+	height: 610px;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+  background: -webkit-linear-gradient(top, #CBCBCB, #CBCBCB);
+  -webkit-box-shadow:   
+  inset 0 1px 0 rgba(255,255,225,.5),
+  inset 1px 0 0 rgba(255,255,255,.4),
+  inset 0 1px 2px rgba(255,255,255,.3);
+  border-radius: 10px;
+}
+
+.titulo{
+	font-weight: bold;
+}
+
+.dice{
+	font-size: 13px;
+}
+
+.texto{
+	margin-top: 16px;
+}
+
+.chateo{
+	width: 100%;
+	border: 1px solid #CBCBCB;
+	background: #EEEEEE;
+	padding-top: 4px;
+	padding-bottom: 14px;
+}
+
+.pic{
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	padding: 10px;
+	float: left;
+}
+
+.text{
+	margin-top: 13px;
+}
+
+.conversacion{
+	width: 100%;
+	height: 625px;
+	background: #ECE8E3;
+	background-image: url(../image/chat-panel-bg.png);
+	border: 1px solid #CBCBCB;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.fila{
+	width: 100%;
+	float: left;
+}
+
+.fila2{
+	width: 50%;	
+	float: right;
+}
+
+.habla{
+	width: 40%;
+	height: 70px;
+	background: #fff;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 3px 3.5%;
+	padding: 5px 0;
+	display: block;
+}
+
+.chatt{
+	padding: 10px;
+	margin: 0px 5px;
+}
+
+.clearfix{
+	width: 300px;
+	background: #DCF8C6;
+	border-radius: 5px;
+	margin: 3px 3.5%;
+	padding: 5px 5px;
+	display: block;
+	float: right;
+}
+
+.message{
+	float: right;
+}
+
+.message-data-time{
+	font-size: 9px;
+	padding-top: 40px;
+}
+
+.habla p{
+	font-weight: 30%;
+}
+
+.hora{
+	float: right;
+	font-size: 12px;
+	position: relative;
+	bottom: 35px;
+	left: 25px;
+}
+
+.hora2{
+	float: right;
+	font-size: 11px;
+	position: relative;
+	left: 10px;
+}
+
+.escribir{
+	width: 100%;
+	background: #F2F0EE;
+}
+
+.grande{
+	margin: 10px;
+	width: 85%;
+	padding: 8px;
+	background: #fff;
+	border-radius: 5px;
+	border: none;
+}
+
+.escribir span{
+	font-size: 20px;
+	color: black;
+}
+
+.dere{
+	padding: 0 10px;
+	float: right;
+	position: relative;
+	bottom: 32px;
+	font-size: 16px;
+	color: #7E7373;
+}
+
+.escribir .icono, .gian .icono{
+	font-size: 20px;
+	color: #7E7373;
+}
+
+.gian .icono{
+position: relative;
+left: 65%;
+padding: 5px;	
+}
+
+.contactos a{
+	color: black;
+}
